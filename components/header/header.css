@@ -14,7 +14,6 @@
     position: relative;
     width: 100%;
     align-items: center;
-    border-bottom: 0.2px solid white;
 } 
 
 .header-logo {
@@ -41,7 +40,7 @@
         flex-direction: column;
         overflow: hidden;
         height: 15vh;
-        /* Stack components vertically on smaller screens */
+        border-bottom: 0.2px solid white;
     }
 
     .header-navbar,
