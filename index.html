@@ -12,37 +12,44 @@
     <link rel="stylesheet" href="root.css">
     <link rel="stylesheet" href="./components/header/header.css">
     <link rel="stylesheet" href="components/navbar/styles.css">
+    <link rel="stylesheet" href="components/logo/logo.css">
 
+    <!-- fade in animation -->
 
-<!-- fade in animation -->
-
-<style>
-    body {
-        animation: fadeInAnimation ease .5s;
-        animation-iteration-count: 1;
-        animation-fill-mode:backwards;
-    }
-    @keyframes fadeInAnimation {
-        0% {
-            opacity: 0;
+    <style>
+        body {
+            animation: fadeInAnimation ease .5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: backwards;
         }
-        100% {
-            opacity: 1;
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
         }
-    }
-</style>
+    </style>
 
 </head>
 
 
-
-
-
+<!-- NAVBAR -->
 
 <body>
     <header>
         <div class="header">
-            <div class="header-logo ">LOGO</div>
+            <div class="header-logo ">
+                <div class="header-logo-div logo-image">
+                    <a href="/" style="text-decoration: none;">
+                    <p class="logo-text">Krishna Textiles</p>
+                </a>
+                </div>
+            </div>
+
             <div class="header-navbar">
                 <div class="header-navbar">
                     <nav>
@@ -62,7 +69,7 @@
                         <div class="underline"></div>
                     </nav>
                 </div>
-                </div>
+            </div>
         </div>
     </header>
 
