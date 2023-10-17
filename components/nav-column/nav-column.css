@@ -1,0 +1,46 @@
+.nav-column {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #64CCC5;
+    color: #fff;
+    padding: 10px;
+    border: 1px white solid;
+    position: relative;
+    overflow-y: hidden;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border-left: 1px white solid;
+}
+
+td:hover {
+    opacity: 0.5;
+    text-decoration: underline black;
+    transition-duration: .3s;
+}
+
+td:last-child:hover {
+    opacity: 1;
+    /* text-decoration: underline black; */
+    /* transition-duration: .3s; */
+}
+
+td:first-child {
+    border-left: none;
+}
+
+td:last-child {
+    width: 30vh;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}

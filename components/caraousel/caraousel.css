@@ -1,0 +1,16 @@
+.glide__slide {
+  border: 1px solid black;
+  line-height: 1px;
+  margin: 0;
+  text-align: center;
+  cursor: grab;
+  max-width: fit-content;
+}
+
+     
+.caraousel{
+  position: relative;
+  margin-top: 5vh;
+  max-height: 20vh;
+  max-width: 100%;
+}

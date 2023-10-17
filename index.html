@@ -13,6 +13,13 @@
     <link rel="stylesheet" href="./components/header/header.css">
     <link rel="stylesheet" href="components/navbar/styles.css">
     <link rel="stylesheet" href="components/logo/logo.css">
+    <link rel="stylesheet" href="components/caraousel/caraousel.css">
+    <!-- Required Core Stylesheet -->
+    <!-- <link rel="stylesheet" href="components/caraousel/glide.core.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.core.css">
+    <link rel="stylesheet" href="./components/nav-column/nav-column.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="components/grid/simple-grid/grid/simple-grid.min.css">
 
     <!-- fade in animation -->
 
@@ -39,41 +46,94 @@
 
 <!-- NAVBAR -->
 
-<body>
-    <header>
-        <div class="header">
-            <div class="header-logo ">
-                <div class="header-logo-div logo-image">
-                    <a href="/" style="text-decoration: none;">
+
+<header>
+    <div class="header">
+        <div class="header-logo ">
+            <div class="header-logo-div logo-image">
+                <a href="/" style="text-decoration: none;">
                     <p class="logo-text">Krishna Textiles</p>
                 </a>
-                </div>
-            </div>
-
-            <div class="header-navbar">
-                <div class="header-navbar">
-                    <nav>
-                        <a class="item">Home</a>
-                        <a class="item">About</a>
-                        <div class="item">
-                            Skills
-                            <div class="dropdown">
-                                <div>
-                                    <a>React</a>
-                                    <a>Angular</a>
-                                    <a>Vue</a>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="item">Contact</a>
-                        <div class="underline"></div>
-                    </nav>
-                </div>
             </div>
         </div>
-    </header>
+
+        <div class="header-navbar">
+            <div class="header-navbar">
+                <nav>
+                    <a class="item">Home</a>
+                    <a class="item">About</a>
+                    <a class="item">Skills</a>
+                    <a class="item">Contact</a>
+                    <div class="underline"></div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
 
 
+
+<!-- nav column -->
+<div class="nav-column">
+    <table>
+        <tr>
+
+            <td><a href="dif page some some">Mens Jacket</a></td>
+            <td><a href="">Polyester Fabric</a></td>
+            <td><a href="">Nylon Fabric</a></td>
+            <td><a href="">Sportswear Fabric</a></td>
+            <td><a href="">Dobby Fabric</a></td>
+            <td><a href="">Lining Fabric</a></td>
+            <!-- Add more <td> elements for additional sections -->
+        </tr>
+    </table>
+</div>
+
+
+<!-- grid // cards products  -->
+<div class="container" style="width: 100%;">
+    <div class="row">
+      <div class="col-3">
+        <img src="assets/images/image1.jpg" alt="">
+    </div>
+      <div class="col-3">
+        <img src="assets/images/image1.jpg" alt="">
+    </div>
+      <div class="col-6">
+        <img src="assets/images/image1.jpg" alt="">
+    </div>
+    </div>
+  </div>
+        <style>
+            .container img{
+                object-fit: cover;
+            }
+        </style>
+<!-- caraousel -->
+
+<!-- 
+                <li class="glide__slide"><img src="assets/images/image1.jpg" alt=""></li>
+                <li class="glide__slide"><img src="assets/images/image2.jpg" alt=""></li>
+                <li class="glide__slide"><img src="assets/images/image3.jpg" alt=""></li>
+                <li class="glide__slide"><img src="assets/images/image4.jpg" alt=""></li>
+                <li class="glide__slide"><img src="assets/images/image5.jpg" alt=""></li>
+             -->
+
+
+
+<!-- js scripts  -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+    new Glide('.glide', {
+        type: 'slider',
+        startAt: 0,
+        perView: 1,
+        autoplay: 3500,
+        gap:10,
+        rewind:true
+    }).mount()
+</script> -->
+<script src="scripts.js"></script>
 </body>
 
 </html>

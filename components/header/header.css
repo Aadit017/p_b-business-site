@@ -2,7 +2,6 @@
     --color-primary: #6a8ad4;
     --color-root: #176B87;
 }
-
 .header {
     margin: 0;
     padding: 0;
@@ -11,9 +10,11 @@
     height: 10vh;
     backdrop-filter: blur(10vh);
     background: transparent;
-    position: relative;
+    position: sticky;
+    /*ONG THE BEST PROPERTY EVER , YEH STICKY*/
     width: 100%;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 } 
 
 .header-logo {
