@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.main-heading {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.content-wrapper {
+    display: flex;
+    max-width: 900px;
+    /* Adjust to your desired max width */
+}
+
+.content-left,
+.content-right {
+    padding: 10px;
+}
+
+.content-left {
+    flex: 70%;
+    
+    /* Background color for the left side */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* Vertically center the content */
+    /* align-items: center; */
+    /* Horizontally center the content */
+    /* text-align: center; */
+}
+
+.content-right {
+    flex: 30%;
+
+}
+
+.content-left {
+    font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+.content-right {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    /* Responsive image width */
+    height: auto;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        /* Stack children vertically on smaller screens */
+    }
+
+    .content-left,
+    .content-right {
+        flex: auto;
+        /* Let them take the available width individually */
+    }
+}

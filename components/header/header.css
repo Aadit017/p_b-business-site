@@ -2,20 +2,22 @@
     --color-primary: #6a8ad4;
     --color-root: #176B87;
 }
+
 .header {
     margin: 0;
     padding: 0;
     display: flex;
+    z-index: 999;
     justify-content: space-between;
     height: 10vh;
     backdrop-filter: blur(10vh);
     background: transparent;
-    position: sticky;
+    position: fixed;
     /*ONG THE BEST PROPERTY EVER , YEH STICKY*/
     width: 100%;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-} 
+}
 
 .header-logo {
     flex: 70%;
@@ -24,11 +26,13 @@
 
     /* border: solid 1px black ; */
 }
-.header-logo-div{
-    margin-left:30%;
+
+.header-logo-div {
+    margin-left: 30%;
     margin-top: 1.4%;
     /* text-align: center; */
 }
+
 .header-navbar {
     /* border: solid 1px black; */
     text-align: center;
@@ -46,19 +50,21 @@
 
     .header-navbar,
     .header-logo {
-        margin:0;
+        margin: 0;
         flex: 100%;
         /* Take full width on smaller screens */
     }
-    .header-logo-div{
-        margin-left:0%;
+
+    .header-logo-div {
+        margin-left: 0%;
         margin-top: 14%;
         /* text-align: center; */
     }
+
     .header-navbar {
         height: auto;
         /* width:50%; */
     }
 
- 
+
 }

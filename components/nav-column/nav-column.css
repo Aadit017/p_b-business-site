@@ -6,8 +6,9 @@
     color: #fff;
     padding: 10px;
     border: 1px white solid;
-    position: relative;
+    position:relative;
     overflow-y: hidden;
+    top: 10vh;
 }
 
 table {
@@ -36,11 +37,15 @@ td:first-child {
     border-left: none;
 }
 
-td:last-child {
-    width: 30vh;
-}
 
 a {
     text-decoration: none;
     color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+    .nav-column{
+        top:15vh;
+    }
 }
